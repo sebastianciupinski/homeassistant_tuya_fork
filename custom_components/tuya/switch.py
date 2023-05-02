@@ -24,6 +24,13 @@ from .const import DOMAIN, TUYA_DISCOVERY_NEW, DPCode
 # default instruction set of each category end up being a Switch.
 # https://developer.tuya.com/en/docs/iot/standarddescription?id=K9i5ql6waswzq
 SWITCHES: dict[str, tuple[SwitchEntityDescription, ...]] = {
+    "qxj": (
+        SwitchEntityDescription(
+            key=time_1224,
+            name="TimeFormat",
+            icon="mdi:kettle-steam",
+        )
+    ),
     # Smart Kettle
     # https://developer.tuya.com/en/docs/iot/fbh?id=K9gf484m21yq7
     "bh": (

@@ -161,14 +161,14 @@ SENSORS: dict[str, tuple[TuyaSensorEntityDescription, ...]] = {
         *BATTERY_SENSORS,
     ),
     ## Weather Station
-    ##"qxj": (
-    ##    TuyaSensorEntityDescription(
-    ##        key=DPCode.LOACL_HUM,
-    ##        name = "Humidity",
-    ##        device_class=SensorDeviceClass.HUMIDITY,
-    ##        state_class=SensorStateClass.MEASUREMENT,
-    ##    )    
-    ##),
+    "qxj": (
+        TuyaSensorEntityDescription(
+            key=DPCode.LOACL_HUM,
+            name = "Humidity",
+            device_class=SensorDeviceClass.HUMIDITY,
+            state_class=SensorStateClass.MEASUREMENT,
+        )    
+    ),
     
     # Smart Kettle
     # https://developer.tuya.com/en/docs/iot/fbh?id=K9gf484m21yq7
