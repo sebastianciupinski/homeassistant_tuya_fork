@@ -217,6 +217,7 @@ class DPCode(StrEnum):
     LED_TYPE_1 = "led_type_1"
     LED_TYPE_2 = "led_type_2"
     LED_TYPE_3 = "led_type_3"
+    LOCAL_HUM = "local_hum"
     LEVEL = "level"
     LEVEL_CURRENT = "level_current"
     LIGHT = "light"  # Light

@@ -163,7 +163,7 @@ SENSORS: dict[str, tuple[TuyaSensorEntityDescription, ...]] = {
     ## Weather Station
     "qxj": (
         TuyaSensorEntityDescription(
-            key=local_hum,
+            key=DPCode.LOACL_HUM,
             device_class=SensorDeviceClass.HUMIDITY,
             state_class=SensorStateClass.MEASUREMENT,
         )    
