@@ -1,5 +1,5 @@
 {
-  "domain": "tuyafork",
+  "domain": "tuya",
   "name": "TuyaFork",
   "codeowners": ["@Tuya", "@zlinoliver", "@frenck"],
   "config_flow": true,
