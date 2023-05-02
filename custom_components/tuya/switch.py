@@ -26,7 +26,7 @@ from .const import DOMAIN, TUYA_DISCOVERY_NEW, DPCode
 SWITCHES: dict[str, tuple[SwitchEntityDescription, ...]] = {
     "qxj": (
         SwitchEntityDescription(
-            key=time_1224,
+            key="time_1224",
             name="TimeFormat",
             icon="mdi:kettle-steam",
         )
