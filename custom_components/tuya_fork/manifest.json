@@ -44,6 +44,15 @@
   "iot_class": "cloud_push",
   "loggers": ["tuya_iot"],
   "requirements": ["tuya-iot-py-sdk==0.6.6"],
-  "version" : "0.0.1"
+  "version" : "0.0.1",
+  "config_flow": true,
+  "dependencies": [
+      "http",
+      "websocket_api",
+      "frontend",
+      "persistent_notification",
+      "lovelace",
+      "repairs"
+    ],
   
 }
